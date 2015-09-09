@@ -1,0 +1,43 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font: caption ;
+    
+}
+
+
+header{
+    height: 216px;
+    background-color:grey;
+    width:100%;
+    background-image: url("../pic/header.jpg") ;
+    
+    
+    
+}
+
+#logo{
+    width: 108px;
+    height: 108px;
+    margin: auto;
+    padding-top: 25px;
+}
+.menuList {
+    height: 16px;
+     margin-top: 33px;
+}
+
+header ul li{
+    display: inline;
+    margin: 18px ;
+    font-weight: bold;
+    font-size: 14px;
+} 
+
+header a{
+    color:white;
+    text-decoration: none;
+}
+
+/* cool proposition */
