@@ -76,3 +76,37 @@ article .content {
     font-weight: bold;
     
 }
+
+
+
+/*arrow box */
+
+.arrow_box {
+	position: relative;
+	background: #ffffff;
+	border-bottom: 4px solid #cccccc;
+}
+.arrow_box:after, .arrow_box:before {
+	top: 100%;
+	left: 50%;
+	border: solid ;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+}
+
+.arrow_box:after {
+	border-color: rgba(255, 253, 250, 0);
+	border-top-color: #ffffff;
+	border-width: 30px;
+        margin-left: -30px;
+}
+.arrow_box:before {
+	border-color: rgba(157, 180, 196, 0);
+	border-top-color: #cfcfcf;
+	border-width: 36px;
+	margin-left: -36px;
+}
+/*-----------------*/
