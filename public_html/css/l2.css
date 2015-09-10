@@ -181,14 +181,23 @@ article .content {
     border: 3px solid ;
     border-color: #cccccc;
     border-radius: 50%;
+   
 }
-/*
-.whyUs .circle div {
-    
-   padding: 0;
-    
-}*/
 
 
+/*arrow box */
 
 
+.arrow_box2:after {
+	border-color: rgba(255, 255, 255, 0);
+	border-top-color: #3598dc;
+	border-width: 17px;
+        margin-left: -17px;
+}
+
+/*-----------------*/
+
+
+.garantee{
+    background: #3598dc;
+}
