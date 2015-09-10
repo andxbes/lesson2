@@ -66,13 +66,17 @@ article .content {
 /* cool proposition */
 
 .work ,
-.benefit{
+.benefit ,
+.benefit2,
+.table{
     display: table;
     margin: auto;
     padding: 40px;
 }
 .work div , 
-.benefit div {
+.benefit div ,
+.benefit2 div,
+.cell {
     display: table-cell;
     padding-left: 30px;
     padding-right: 30px;
@@ -132,18 +136,59 @@ article .content {
 /*-----------------*/
 
 
-.benefit  {
+.benefit ,
+.benefit2 {
+/*    padding-top: 5px;
+    padding-bottom: 5px;*/
     padding-left: 0;
     padding-right: 0;
 }
 
 .benefit div:first-child{
+    padding-left: 0;
     vertical-align: top;
     text-align: left;
+    
 }
 
 .benefit div:last-child{
+    
     padding-right: 0;
+    
     alignment-adjust: auto;
 }
+
+
+
+.benefit2 div:last-child{
+    padding-right: 0;
+    vertical-align: top;
+    text-align: left;
+    padding-left: 300px;
+    
+    
+    
+}
+
+.benefit2 div:first-child{
+    
+    padding-left: 0;
+    
+   
+}
+.circle img{
+    padding: 25px;
+    border: 3px solid ;
+    border-color: #cccccc;
+    border-radius: 50%;
+}
+/*
+.whyUs .circle div {
+    
+   padding: 0;
+    
+}*/
+
+
+
 
