@@ -47,6 +47,12 @@ h2{
     margin: 0;
     font-size: 27px;
 }
+h3{
+     padding: 0;
+     margin: 0;
+     font-size: 26px;
+     font-weight: bold;
+}
 
 article .content {
     padding-top : 40px;
@@ -80,6 +86,10 @@ article .content {
     display: table-cell;
     padding-left: 30px;
     padding-right: 30px;
+}
+
+.row{
+    display: table-row;
 }
 
 
@@ -185,10 +195,10 @@ article .content {
 }
 
 
-/*arrow box */
+/*blue spice*/
 
 
-.arrow_box2:after {
+.arrow_boxBlue:after {
 	border-color: rgba(255, 255, 255, 0);
 	border-top-color: #3598dc;
 	border-width: 17px;
@@ -200,4 +210,29 @@ article .content {
 
 .garantee{
     background: #3598dc;
+    
 }
+
+.garantee .cell  img{
+    float:left;
+    padding: 10px  48px  0px   0px ;
+    
+}
+
+.garantee .row div {
+    padding-bottom:   10px;
+    padding-top: 10px;
+}
+
+.garantee .cell div{
+    text-align: left;
+    color: white;
+    
+}
+
+.garantee .cell div h3{
+   line-height: 22px;
+    
+}
+
+/* ------------------------------ */
