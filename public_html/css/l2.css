@@ -200,16 +200,10 @@ article .content {
 
 
 
-/*blue spice*/
-
-
+/*blue spice (redefination)*/
 .arrow_boxBlue:after {
-	border-color: rgba(255, 255, 255, 0);
 	border-top-color: #3598dc;
-	border-width: 17px;
-        margin-left: -17px;
 }
-
 /*-----------------*/
 
 
