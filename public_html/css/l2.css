@@ -8,12 +8,15 @@ html,body{
     
 }
 
+.fullscrtoWidth{
+    width: 100%;
+}
 
 header{
   
     height: 216px;
     background-color:grey;
-    width:100%;
+   
     background-image: url("../pic/header.jpg") ;
 }
 
@@ -200,16 +203,24 @@ article .content {
 
 
 
-/*blue spice (redefination)*/
+/*blue spice*/
+
+
 .arrow_boxBlue:after {
 	border-top-color: #3598dc;
+
 }
+
 /*-----------------*/
 
 
 .garantee{
     padding-left:0;
     padding-right: 0;
+     background: #3598dc;  
+}
+
+.blueLine{
     background: #3598dc;  
 }
 
