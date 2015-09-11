@@ -248,16 +248,25 @@ article .content {
 }
 
 .services .table{
-    ;
+    padding-top: 0;
+    
+    border-spacing: 37px;
 }
 
 .services .circle{
+    
     padding: 0px 0px 0px 0px ;
     width: 140px;
     height: 140px;
-    margin: 40px;
+    vertical-align: middle;
+    color: white;
    
-   
-    background:red;
-    line-height:  normal;
+}
+
+.darker34495e{
+    background: #34495e;
+}
+
+.lighter95a4a7{
+    background: #95a4a7;
 }
