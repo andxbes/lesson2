@@ -96,7 +96,8 @@ article .content {
 }
 
 
-.blue_button ,.blue_button a  {
+.blue_button ,
+.blue_button a  {
     background: #2e9cd9;
     color: white;
     text-decoration: none;
@@ -122,7 +123,8 @@ article .content {
 	border-bottom: 3px solid #cccccc;
         
 }
-.arrow_box:after, .arrow_box:before {
+.arrow_box:after,
+.arrow_box:before {
 	top: 100%;
 	left: 50%;
 	border: solid ;
@@ -204,13 +206,18 @@ article .content {
 
 
 /*blue spice*/
-
-
 .arrow_boxBlue:after {
+        border-color: rgba(255, 255, 255, 0);
 	border-top-color: #3598dc;
-
+}
+.arrow_boxBlue {
+	background: #3598dc;
+	border-bottom: 3px solid #3598dc; 
 }
 
+.arrow_boxBlue:before {
+	border-top-color: #3598dc;
+}
 /*-----------------*/
 
 
@@ -224,7 +231,7 @@ article .content {
     background: #3598dc;  
 }
 
-.garantee .cell  img{
+.garantee .cell img{
     float:left;
     padding: 10px  48px  0px   0px ;
     
