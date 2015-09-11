@@ -2,10 +2,10 @@ html,body{
     text-align: center;
     margin: 0;
     padding: 0;
-   
-    font: caption ;
+
+    font-family:  verdana ;
     font-size: 15px;
-    
+
 }
 
 .fullscrtoWidth{
@@ -13,10 +13,10 @@ html,body{
 }
 
 header{
-  
+
     height: 216px;
     background-color:grey;
-   
+
     background-image: url("../pic/header.jpg") ;
 }
 
@@ -28,14 +28,14 @@ header{
 }
 .menuList {
     height: 16px;
-     margin-top: 33px;
+    margin-top: 33px;
 }
 
 header ul li{
     display: inline;
     margin: 18px ;
     font-weight: bold;
-   
+
 } 
 
 
@@ -45,22 +45,30 @@ header a{
     text-decoration: none;
 }
 h2{
-   
+
     padding: 0;
     margin: 0;
     font-size: 27px;
 }
 h3{
-     padding: 0;
-     margin: 0;
-     font-size: 26px;
-     font-weight: bold;
+    padding: 0;
+    margin: 0;
+    font-size: 26px;
+    font-weight: bold;
+}
+h4{
+    padding: 0;
+    margin: 0;
+    font-size: 18px;
+    font-weight: bolder;
+
 }
 
-article .content {
+article .content ,
+footer{
     padding-top : 40px;
     color: #49666c;
-    
+
 }
 
 
@@ -105,11 +113,11 @@ article .content {
     border-radius: 5px;
     font-size: 19px;
     font-weight: bold;
-    
+
 }
 /*отступ в первом блоке на 100 px  "как мы работаем " */
 .howMeWork button{
-   margin-bottom: 100px;
+    margin-bottom: 100px;
 }
 
 
@@ -118,43 +126,41 @@ article .content {
 /*arrow box */
 
 .arrow_box {
-	position: relative;
-	background: #ffffff;
-	border-bottom: 3px solid #cccccc;
-        
+    position: relative;
+    background: #ffffff;
+    border-bottom: 3px solid #cccccc;
+
 }
 .arrow_box:after,
 .arrow_box:before {
-	top: 100%;
-	left: 50%;
-	border: solid ;
-	content: " ";
-	height: 0;
-	width: 0;
-	position: absolute;
-	pointer-events: none;
-        z-index: 5;
+    top: 100%;
+    left: 50%;
+    border: solid ;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    z-index: 5;
 }
 
 .arrow_box:after {
-	border-color: rgba(255, 255, 255, 0);
-	border-top-color: #ffffff;
-	border-width: 17px;
-        margin-left: -17px;
+    border-color: rgba(255, 255, 255, 0);
+    border-top-color: #ffffff;
+    border-width: 17px;
+    margin-left: -17px;
 }
 .arrow_box:before {
-	border-color: rgba(157, 180, 196, 0);
-	border-top-color: #cccccc;
-	border-width: 20px;
-	margin-left: -20px;
+    border-color: rgba(157, 180, 196, 0);
+    border-top-color: #cccccc;
+    border-width: 20px;
+    margin-left: -20px;
 }
 /*-----------------*/
 
 
 .benefit ,
 .benefit2 {
-/*    padding-top: 5px;
-    padding-bottom: 5px;*/
     padding-left: 0;
     padding-right: 0;
 }
@@ -162,14 +168,11 @@ article .content {
 .benefit div:first-child{
     padding-left: 0;
     vertical-align: top;
-    text-align: left;
-    
+    text-align: left; 
 }
 
 .benefit div:last-child{
-    
     padding-right: 0;
-    
     alignment-adjust: auto;
 }
 
@@ -180,16 +183,10 @@ article .content {
     vertical-align: top;
     text-align: left;
     padding-left: 300px;
-    
-    
-    
 }
 
 .benefit2 div:first-child{
-    
     padding-left: 0;
-    
-   
 }
 
 
@@ -198,8 +195,6 @@ article .content {
     border: 3px solid ;
     border-color: #cccccc;
     border-radius: 50%;
-   
-   
 }
 
 
@@ -207,16 +202,16 @@ article .content {
 
 /*blue spice*/
 .arrow_boxBlue:after {
-        border-color: rgba(255, 255, 255, 0);
-	border-top-color: #3598dc;
+    border-color: rgba(255, 255, 255, 0);
+    border-top-color: #3598dc;
 }
 .arrow_boxBlue {
-	background: #3598dc;
-	border-bottom: 3px solid #3598dc; 
+    background: #3598dc;
+    border-bottom: 3px solid #3598dc; 
 }
 
 .arrow_boxBlue:before {
-	border-top-color: #3598dc;
+    border-top-color: #3598dc;
 }
 /*-----------------*/
 
@@ -224,7 +219,7 @@ article .content {
 .garantee{
     padding-left:0;
     padding-right: 0;
-     background: #3598dc;  
+    background: #3598dc;  
 }
 
 .blueLine{
@@ -234,7 +229,7 @@ article .content {
 .garantee .cell img{
     float:left;
     padding: 10px  48px  0px   0px ;
-    
+
 }
 
 .garantee .row div {
@@ -245,40 +240,72 @@ article .content {
 .garantee .cell div{
     text-align: left;
     color: white;
-    
+
 }
 
 .garantee .cell div h3{
-   line-height: 22px;
-    
+    line-height: 22px;
+
 }
 
 /* ------------------------------ */
 
 .circle{
-     border-radius: 50%;
+    border-radius: 50%;
 }
 
 .services .table{
     padding-top: 0;
-    
+
     border-spacing: 37px;
 }
 
 .services .circle{
-    
+
     padding: 0px 0px 0px 0px ;
     width: 140px;
     height: 140px;
     vertical-align: middle;
     color: white;
-   
-}
 
+}
+/* color for services circles */
 .darker34495e{
     background: #34495e;
 }
 
 .lighter95a4a7{
     background: #95a4a7;
+}
+/* ---------line----------- */
+.line{
+    border-bottom: 3px solid #cccccc;
+}
+/* team */
+.team .cell h4{
+    float:left;
+    font-weight: normal;
+    margin-left:16px;
+    color: #2b95d1;
+}
+
+
+.team .cell div p{
+    text-align: right;
+    margin-right: 16px;
+}
+
+.team .cell p{
+    text-align: left;
+}
+
+.team{
+    padding-bottom: 40px;
+}
+
+footer h4{
+    padding-bottom:  21px;
+}
+footer img{
+    padding: 23px;
 }
