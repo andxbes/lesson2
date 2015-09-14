@@ -4,6 +4,7 @@
         <title>Lesson 2</title>
         <meta charset="UTF-8"/>
         <link rel="stylesheet" href="css/l2.css"/>
+        <link rel="stylesheet"   href="css/screen960.css"/>
     </head>
     <body>
         <header class="fullscrtoWidth">
@@ -12,48 +13,48 @@
 
             <ul class="menuList" >
                 <li> <a href="#">Что мы делаем?</a> </li>
-                <li> <a href="#">ЗАКАЗАТЬ</a> </li>
-                <li> <a href="#">О нас</a> </li>
-                <li> <a href="#">Почему мы?</a> </li>
-                <li> <a href="#">Наши товары </a> </li>
-                <li> <a href="#">Наша команда</a> </li>
-                <li> <a href="#">ЗАКАЗАТЬ</a> </li>
+                <li> <a href="#MeWork">ЗАКАЗАТЬ</a> </li>
+                <li> <a href="#anchoreBenefit">О нас</a> </li>
+                <li> <a href="#anchorWhyUS">Почему мы?</a> </li>
+                <li> <a href="#anchorServicess">Наши товары </a> </li>
+                <li> <a href="#anchorTeam">Наша команда</a> </li>
+                <li> <a href="#anchorSocial">Где нас найти?</a> </li>
             </ul>
 
         </header>
 
 
         <article class="fullscrtoWidth">
-            <div class="div1100 content arrow_box howMeWork " >
-
-                <h2>Ваше очень крутое предложение!</h2>
+            <div class=" baseSize content arrow_box howMeWork " >
+                <a id="MeWork"></a>
+                <h2 >Ваше очень крутое предложение!</h2>
                 <p> Как мы работаем?</p>
-                <div class="work">
-                    <div>
+                <div class="work table">
+                    <div class="cell">
                         <img src="pic/home.jpg" alt="home" >
                         <p> Шаг-1:Описание </p>
                     </div>
                     <img src="pic/arrow.jpg" alt="arrow" />
-                    <div>
+                    <div class="cell">
                         <img src="pic/prop.jpg" alt="prop" />
                         <p> Шаг-2:Описание </p>
-                    </div>
+                    </div> 
                     <img src="pic/arrow.jpg" alt="arrow" />
-                    <div>
+                    <div class="cell" >
                         <img src="pic/monitor.jpg" alt="monitor" />
                         <p> Шаг-3:Описание </p>
                     </div>
 
                 </div>
-                <button   class="blue_button"> 
-                    <a href="#">ЗАКАЗАТЬ ПРЯМО СЕЙЧАС</a>
-                </button>
+
+                <a class="blue_button" href="#">ЗАКАЗАТЬ ПРЯМО СЕЙЧАС</a>
+
             </div>
 
-            <div class="div1100  content arrow_box">
+            <div id="anchoreBenefit" class="baseSize  content arrow_box">
                 <h2>О НАС или любой другой текст </h2>
-                <div class="benefit">
-                    <div>
+                <div class="benefit table line">
+                    <div class="cell ">
                         <h3>Преимущество №1</h3>
                         <p>
                             Здесь пишите любой свой текст . Например: Датский феодал Горвендил 
@@ -62,21 +63,17 @@
                             условились , что к победителю перейдут все богатства побежденного .
 
                         </p>
-                        <button   class="blue_button"> 
-                            <a href="#">ЗАКАЗАТЬ ПРЯМО СЕЙЧАС</a>
-                        </button>
+                        <a  class="blue_button" href="#">ЗАКАЗАТЬ ПРЯМО СЕЙЧАС</a>
                     </div>
 
-                    <div>
+                    <div class="cell">
                         <img src="pic/laptop.png" alt="laptop" >
                     </div>
 
                 </div>
 
-                <div class="benefit2">
-                    <div>
-                        <img src="pic/planshet.png" alt="planshet" > 
-                    </div>
+                <div class="benefit2 table">
+
 
                     <div>
                         <h3>Преимущество №2</h3>
@@ -89,13 +86,17 @@
                         </p>
 
                     </div>
+
+                    <div>
+                        <img src="pic/planshet.png" alt="planshet" > 
+                    </div>
                 </div>
 
             </div>
 
 
 
-            <div class="content arrow_box div1100">
+            <div id="anchorWhyUS" class="content arrow_box baseSize">
                 <h2>Почему мы? </h2>
                 <div class="table">
                     <div class="cell">
@@ -146,8 +147,8 @@
 
             </div>
 
-            <div class="fullscrtoWidth blueLine" >
-                <div class=" table garantee content arrow_box arrow_boxBlue div1100">
+            <div id="anchorGarantee" class="fullscrtoWidth blueLine" >
+                <div class=" table garantee content arrow_box arrow_boxBlue baseSize">
                     <div class="row">
                         <div class="cell">
                             <img src="pic/plain90.png" alt="plain">
@@ -198,7 +199,7 @@
                 </div>
 
             </div>     
-            <div class="services arrow_box content div1100">
+            <div id="anchorServicess" class="services arrow_box content baseSize">
                 <h2> Услуги </h2>
                 <div class="table">
                     <div class="darker34495e cell circle"> 140x140 </div>
@@ -209,7 +210,7 @@
                 </div>
             </div>
 
-            <div class="team line content div1100">
+            <div id="anchorTeam" class="team line content baseSize">
                 <h2> Наша команда! </h2>
                 <div class="table">
                     <div class="cell">
@@ -283,7 +284,7 @@
         <footer>
             <h4> Следуйте за нами </h4>
 
-            <div class="team content div1100">
+            <div id="anchorSocial" class="content baseSize">
 
                 <a href="#"> <img src="pic/social/faceBook.png" alt="faceBook"></a>
                 <a href="#"> <img src="pic/social/twitter40.png" alt="twitter"></a>
@@ -296,11 +297,7 @@
                 <a href="#"> <img src="pic/social/oo.png" alt="oo"></a>
                 <a href="#"> <img src="pic/social/rss.png" alt="rss"></a>
 
-
             </div>
-
-
-
         </footer>
 
     </body>
