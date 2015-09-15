@@ -11,9 +11,12 @@ and open the template in the editor.
 
 
 @media (max-width:930px) {
+    
+    html,
     body{
-        font-size: 20px;
+        font-size: 22px;
     }
+    
     header{
         height: 960px;
         font-size: 30px;
@@ -97,54 +100,65 @@ and open the template in the editor.
         width: 90%;
     }
 
-
-
-
-
 }
 
 @media  (min-width:800px) and (max-width:960px) {
+   
+    html,
+    body{
+        font-size: 20px;
+    }
+    
+    
     header{
         height: 540px;
         font-size: 30px;
         line-height: 27px;
 
     }
+    
+    .work{
+        padding: 0px;
+    }
 
     .benefit ,
     .benefit2 {
-        margin-left: 30px;;
+        margin-left: 30px;
+    }
+    
+    .garantee .cell img{
+        padding: 0;
+        margin: 32px;
+        float: left;
     }
 
     .services .table{
         border-spacing: 20px;
     }
 
-    .team .cell{
+     .team .cell{
         padding: 0;
     }
+   
 
 }
 
 @media (max-width:960px) {
-
-
     header ul li{
         display: inherit;
     } 
 
+}
 
+@media (max-width:1100px){
     .baseSize{
         width: 100%;
     }
-
-
-
-
-
-
-
-
-
-
+     .team .cell{
+        padding: 10px;
+    }
+    
 }
+
+
+
